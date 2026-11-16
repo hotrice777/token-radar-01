@@ -9,7 +9,7 @@ Token Radar ranks 200 pre-token protocols by an implied token value derived from
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input snapshot.json
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../token-radar-01-kit/input/snapshot.json
 # board: out/board.json · page: out/dashboard/index.html (open out/data.js beside it)
 ```
 
